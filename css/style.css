@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background: black;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+h1{
+    color: white;
+    float: left;
+    margin: 10px;
+}
+.botonera{
+    float: right;
+}
+.botonera ul{
+    display: flex;
+    list-style: none;
+}
+.botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 25px;
+}
+/* Estilos para el Banner */
+.banner{
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+}
+.cont-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    line-height: 30px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 0 none;
+}
+main{
+    width: 80%;
+    margin: 20px auto;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.img-responsive{
+    width: 450px;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+/* Estilos para Section */
+section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    width: 350px;
+    margin-bottom: 10px;
+}
